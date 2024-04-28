@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import {Button, Hours, About} from '../index'
+import {Button, Hours, About, Contact} from '../index'
 function Home() {
   const [moreIntro, setMoreIntro] = useState(false)
 
@@ -88,7 +88,7 @@ function Home() {
 
 
 {/* Box for some picture and description's of Resturant  */}
-<main className='w-[98%] px-4 mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg'>
+<main className='w-[98%] md:px-4 mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg'>
     <section className=''>
      <div className='px-4 py-2 flex flex-col gap-2 '>
         <div className='flex flex-col justify-center items-center mx-auto gap-2 w-fit'>
@@ -123,12 +123,16 @@ function Home() {
     </section>
 </main>
 {/* Opening Hours */}
-<main className='w-[98%] px-4 mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg'>
+<main className='mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg'>
 <Hours/>
 </main>
 {/* About */}
-<main className='w-[98%] px-4 mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg'>
+<main className='mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg'>
 <About/>
+</main>
+{/* Contact */}
+<main className='mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg'>
+<Contact/>
 </main>
 </>
   )
