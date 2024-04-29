@@ -3,9 +3,9 @@ import {Button} from '../index'
 import { FiMapPin, FiClock, FiPhone, FiUser, FiMail } from 'react-icons/fi';
 function Contact() {
   return (
-    <main className="w-[98%] px-4 mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg">
+    <main className="mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg">
               <section className="">
-        <div className="px-4 py-2 flex flex-col gap-2 ">
+        <div className="px-2 py-2 flex flex-col gap-2 ">
           <div className="flex flex-col justify-center items-center mx-auto gap-2 w-fit">
             <h1 className="text-yellow-500 font-bold text-2xl border-b-2 border-b-yellow-500 text-center flex  justify-center items-center w-fit mx-auto">
               Contact Us
@@ -19,7 +19,7 @@ function Contact() {
           <section className='w-full lg:w-[80%] py-4'>
        <div className=" bg-pink-600  rounded-lg overflow-hidden shadow-md mx-auto mt-8">
       <div className="p-6">
-        <h2 className="text-xl font-semibold text-gray-800 mb-4">Crown Mash</h2>
+        <h2 className="text-xl font-semibold text-white border-b-2 w-fit mb-4">Crown Mash</h2>
         <div className="flex items-center mb-3">
           <FiMapPin className="text-white mr-2" />
           <p className="text-sm text-white">263 High Road, Benfleet, Essex, SS7 5HA</p>
@@ -45,7 +45,7 @@ function Contact() {
        </section>
  <section className='flex flex-col md:flex-row gap-4 justify-between'>
         <div>
-        <img src="https://media.gettyimages.com/id/1297050085/photo/young-businessman-using-a-digital-tablet-in-a-modern-office.jpg?s=612x612&w=0&k=20&c=RUWsrJui6vjKFohcOn71smnQ14TI4ehtmpaQoBDkYjU=" alt="" className="w-full h-[40vh] md:h-[50vh] lg:h-[55vh] object-cover rounded-3xl" />
+        <img src="https://media.gettyimages.com/id/1297050085/photo/young-businessman-using-a-digital-tablet-in-a-modern-office.jpg?s=612x612&w=0&k=20&c=RUWsrJui6vjKFohcOn71smnQ14TI4ehtmpaQoBDkYjU=" alt="" className="w-[99%] md:w-[90%] h-[300px] md:h-[350px] xl:h-[350px] mx-auto object-cover rounded-3xl" />
         </div>
        <div className='bg-pink-600 drop-shadow-xl w-[98%] md:w-2/4 flex flex-col gap-2 justify-start items-center mx-auto p-4 rounded-lg'>
         <div>

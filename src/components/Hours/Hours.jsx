@@ -2,9 +2,9 @@ import React from 'react'
 import {Button} from '../index'
 function Hours() {
   return (
-<main className='w-[98%] px-4 mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg'>
+<main className='mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg'>
     <section className=''>
-     <div className='px-4 py-2 flex flex-col gap-2 '>
+     <div className='px-2 py-2 flex flex-col gap-2 '>
         <div className='flex flex-col justify-center items-center mx-auto gap-2 w-fit'>
         <h1 className='text-yellow-500 font-bold text-2xl border-b-2 border-b-yellow-500 text-center flex  justify-center items-center w-fit mx-auto'>Opening Hours</h1>
         </div>
@@ -12,7 +12,7 @@ function Hours() {
 
        <section className='flex flex-col md:flex-row gap-4 justify-between'>
         <div>
-        <img src="https://media.gettyimages.com/id/1003743930/photo/waitress-talking-on-the-phone-at-a-restaurant.jpg?s=612x612&w=0&k=20&c=WA76RWnnu2wY39-ps-fDr6X8zkcTrCAMYyY2m1qv7P4=" alt="" className="w-full h-[40vh] md:h-[50vh] lg:h-[55vh] object-cover rounded-3xl" />
+        <img src="https://media.gettyimages.com/id/1003743930/photo/waitress-talking-on-the-phone-at-a-restaurant.jpg?s=612x612&w=0&k=20&c=WA76RWnnu2wY39-ps-fDr6X8zkcTrCAMYyY2m1qv7P4=" alt="" className="w-[99%] md:w-[90%] h-[300px] md:h-[350px] xl:h-[350px] mx-auto object-cover rounded-3xl" />
         </div>
        <div className='bg-pink-600 drop-shadow-xl w-[98%] md:w-2/4 flex flex-col gap-2 justify-start items-start mx-auto p-4 rounded-lg'>
         <div>
@@ -43,7 +43,7 @@ function Hours() {
        </section>
      </div>
 
-     <div className='px-4 py-2 flex flex-col gap-2 '>
+     <div className='px-2 py-2 flex flex-col gap-2 '>
         <div className='flex flex-col justify-center items-center mx-auto gap-2 w-fit'>
         <h1 className='text-yellow-500 font-bold text-2xl border-b-2 border-b-yellow-500 text-center flex  justify-center items-center w-fit mx-auto'>Comfortable With Crown Mash</h1>
        
@@ -54,10 +54,10 @@ function Hours() {
 
     <section className='flex flex-col md:flex-row gap-4 justify-between'>
         <div>
-        <img src="https://media.gettyimages.com/id/1313326784/photo/a-cook-finally-assembling-with-spatula-a-lovely-beef-burger-served-with-lettuce-mayo-chilli.jpg?s=612x612&w=0&k=20&c=-DfuET6Gx9dOakFG2F0IDjYSQNHGDfyLyUfNlxOr_t8=" alt="" className="w-full h-[40vh] md:h-[50vh] lg:h-[55vh] object-cover rounded-3xl" />
+        <img src="https://media.gettyimages.com/id/1313326784/photo/a-cook-finally-assembling-with-spatula-a-lovely-beef-burger-served-with-lettuce-mayo-chilli.jpg?s=612x612&w=0&k=20&c=-DfuET6Gx9dOakFG2F0IDjYSQNHGDfyLyUfNlxOr_t8=" alt="" className="w-[99%] md:w-[90%] h-[300px] md:h-[350px] xl:h-[350px] mx-auto object-cover rounded-3xll" />
         </div>
         <div>
-        <img src="https://media.gettyimages.com/id/1415605166/photo/businesswoman-working-at-laptop-with-fast-food-on-restaurant-table.jpg?s=612x612&w=0&k=20&c=_IUvIOiJLjyM6TfPPRCy9omI_YokhgHfFbDfVkN2LN8=" alt="" className="w-full h-[40vh] md:h-[50vh] lg:h-[55vh] object-cover rounded-3xl" />
+        <img src="https://media.gettyimages.com/id/1415605166/photo/businesswoman-working-at-laptop-with-fast-food-on-restaurant-table.jpg?s=612x612&w=0&k=20&c=_IUvIOiJLjyM6TfPPRCy9omI_YokhgHfFbDfVkN2LN8=" alt="" className="w-[99%] md:w-[90%] h-[300px] md:h-[350px] xl:h-[350px] mx-auto object-cover rounded-3xl" />
         </div>
        
        </section>

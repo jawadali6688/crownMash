@@ -6,6 +6,7 @@ import Button from "./Extras/Button";
 import Hours from "./Hours/Hours";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
+import Pricings from "./Pricing/Pricings";
 export {
     Logo,
     Header,
@@ -14,5 +15,6 @@ export {
     Button,
     Hours,
     About,
-    Contact
+    Contact,
+    Pricings
 }

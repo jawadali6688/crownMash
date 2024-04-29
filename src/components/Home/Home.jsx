@@ -41,11 +41,11 @@ function Home() {
   return (
 <>
 {/* First Introduction of Resturant */}
-<main className='w-[98%] mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg'>
+<main className='mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg'>
     <section className=''>
-     <div className='px-4 py-2 flex flex-col gap-2 justify-center items-center '>
+     <div className='py-2 flex flex-col gap-2 justify-center items-center '>
         <h1 className='text-yellow-500 font-bold text-2xl border-b-2 border-b-yellow-500 '>Crown Mash</h1>
-        <h3 className='text-gray-700 text-lg px-6'>Crown Mash is more than just a fast food restaurant—it's a culinary journey where every bite tells a story of flavor and tradition. With our commitment to quality ingredients and innovative recipes, we craft dishes that tantalize the taste buds and leave a lasting impression. 
+        <h3 className='text-gray-700 text-lg px-2'>Crown Mash is more than just a fast food restaurant—it's a culinary journey where every bite tells a story of flavor and tradition. With our commitment to quality ingredients and innovative recipes, we craft dishes that tantalize the taste buds and leave a lasting impression. 
         {moreIntro? (" From our sizzling burgers to our crispy fries, each menu item is a masterpiece of indulgence, prepared with care and served with pride. Step into Crown Mash and experience the epitome of fast food excellence, where every visit is a celebration of taste and satisfaction. Welcome to the Tasty House—welcome to Crown Mash. At Crown Mash, we're not just serving meals; we're creating moments of joy and satisfaction. Our dedication to exceptional service ensures that every guest feels welcomed and appreciated. Whether you're grabbing a quick bite or indulging in a leisurely meal, our inviting atmosphere and friendly staff make every visit memorable. Join us at Crown Mash and discover why we're more than just a restaurant—we're a destination for delicious experiences."): ""}
         <br /> 
      
@@ -70,14 +70,14 @@ function Home() {
     </section>
 </main>
       {/* sliding image */}
-      <div className="w-[85%] mb-8 md:w-[80%] lg:w-[70%] mx-auto  text-red-500">
+      <div className="w-[95%] mb-8 md:w-[80%] mx-auto  text-red-500">
 <Slider {...settings}>
         {foodImages.map((item, index) => {
           return (
             <>
-              <div key={index} className="px-8">
+              <div key={index} className="px-4">
                 <div>
-                  <img src={item.url} alt="" className="w-full h-[40vh] md:h-[50vh] lg:h-[55vh] object-cover rounded-3xl" />
+                  <img src={item.url} alt="" className="w-[99%] md:w-[90%] h-[300px] md:h-[350px] xl:h-[350px] mx-auto object-cover rounded-3xl" />
                 </div>
               </div>
             </>
@@ -88,9 +88,9 @@ function Home() {
 
 
 {/* Box for some picture and description's of Resturant  */}
-<main className='w-[98%] md:px-4 mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg'>
+<main className='md:px-4 mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg'>
     <section className=''>
-     <div className='px-4 py-2 flex flex-col gap-2 '>
+     <div className='px-2 py-2 flex flex-col gap-2 '>
         <div className='flex flex-col justify-center items-center mx-auto gap-2 w-fit'>
         <h1 className='text-yellow-500 font-bold text-2xl border-b-2 border-b-yellow-500 text-center flex  justify-center items-center w-fit mx-auto'>Reviews</h1>
         <span className='text-yellow-500'>
@@ -107,7 +107,7 @@ function Home() {
        <h3 className='text-gray-700 text-lg'>Since its inception in 2020, Crown Mash has been a beacon of culinary excellence, delighting patrons with its flavorful creations and dedication to quality. Despite its relatively young age, our restaurant has quickly established itself as a beloved destination for food enthusiasts, offering a diverse menu that satisfies every craving. With each passing year, we continue to grow and evolve, staying true to our commitment to providing exceptional dining experiences. Join us on our journey as we celebrate our enduring passion for great food and hospitality.</h3>
      </div>
 
-     <div className='px-4 py-2 flex flex-col gap-2 '>
+     <div className='px-2 py-2 flex flex-col gap-2 '>
         <div className='flex flex-col justify-center items-center mx-auto gap-2 w-fit'>
         <h1 className='text-yellow-500 font-bold text-2xl border-b-2 border-b-yellow-500 text-center flex  justify-center items-center w-fit mx-auto'>Order Now!</h1>
        

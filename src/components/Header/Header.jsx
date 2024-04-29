@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import {Logo} from '../index'
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,9 +13,9 @@ function Header() {
         <div className="flex justify-between items-center h-16">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-              <a to="" className="text-gray-600 text-2xl font-bold">
+              <Link to = "" className="text-gray-600 text-2xl font-bold">
               <Logo/>
-              </a>
+              </Link>
             </div>
           </div>
           <div className='order-3 hidden lg:flex '>
@@ -30,21 +30,21 @@ function Header() {
           </div>
           <div className="flex items-center">
             <div className="hidden md:block">
-              <a href="#" className="text-gray-600 hover:bg-pink-500 hover:text-white px-6 py-2 rounded-md">
+              <NavLink to="/" className="text-gray-600 hover:text-pink-600 px-6 py-2 rounded-md">
                 Home
-              </a>
-              <a href="#" className="text-gray-600 hover:bg-pink-500 hover:text-white px-6 py-2 rounded-md">
+              </NavLink>
+              <NavLink to="opening-hours" className="text-gray-600 hover:text-pink-600 px-6 py-2 rounded-md">
                 Opening Hours
-              </a>
-              <a href="#" className="text-gray-600 hover:bg-pink-500 hover:text-white px-6 py-2 rounded-md">
+              </NavLink>
+              <NavLink to="menu-&-pricing" className="text-gray-600 hover:text-pink-600 px-6 py-2 rounded-md">
                 Menu & Pricing
-              </a>
-              <a href="#" className="text-gray-600 hover:bg-pink-500 hover:text-white px-6 py-2 rounded-md">
+              </NavLink>
+              <NavLink to="about-us" className="text-gray-600 hover:text-pink-600 px-6 py-2 rounded-md">
                 About
-              </a>
-              <a href="#" className="text-gray-600 hover:bg-pink-500 hover:text-white px-6 py-2 rounded-md">
+              </NavLink>
+              <NavLink to="contact-us" className="text-gray-600 hover:text-pink-600 px-6 py-2 rounded-md">
                 Contact
-              </a>
+              </NavLink>
             </div>
             <div className="block md:hidden">
               {isOpen?
@@ -80,36 +80,36 @@ function Header() {
       </div>
       <div className={isOpen ? "md:hidden block" : "hidden"}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <a href="#" className="text-gray-600 block px-3 py-2 rounded-md hover:bg-pink-500 hover:text-white">
+          <NavLink to="" className="text-gray-600 block px-3 py-2 rounded-md hover:text-pink-600">
           <div className='flex gap-2 items-center'>
              <i className='bx bx-home-alt-2 text-2xl' ></i>
                <span>Home</span>
              </div>
-          </a>
-          <a href="#" className="text-gray-600 block px-3 py-2 rounded-md hover:bg-pink-500 hover:text-white">
+          </NavLink>
+          <NavLink to="opening-hours" className="text-gray-600 block px-3 py-2 rounded-md hover:text-pink-600">
           <div className='flex gap-2 items-center'>
              <i className='bx bxs-watch text-2xl' ></i>
                <span>Opening Hours</span>
              </div>
-          </a>
-          <a href="#" className="text-gray-600 block px-3 py-2 rounded-md hover:bg-pink-500 hover:text-white">
+          </NavLink>
+          <NavLink to="menu-&-pricing" className="text-gray-600 block px-3 py-2 rounded-md hover:text-pink-600">
           <div className='flex gap-2 items-center'>
           <i className='bx bxs-credit-card-alt text-2xl'></i>
                <span>Menu & Pricing</span>
              </div>
-          </a>
-          <a href="#" className="text-gray-600 block px-3 py-2 rounded-md hover:bg-pink-500 hover:text-white">
+          </NavLink>
+          <NavLink to="about-us" className="text-gray-600 block px-3 py-2 rounded-md hover:text-pink-600">
           <div className='flex gap-2 items-center'>
           <i className='bx bx-detail text-2xl' ></i>
                <span>About</span>
              </div>
-          </a>
-          <a href="#" className="text-gray-600 block px-3 py-2 rounded-md hover:bg-pink-500 hover:text-white">
+          </NavLink>
+          <NavLink to="contact-us" className="text-gray-600 block px-3 py-2 rounded-md hover:text-pink-600">
           <div className='flex gap-2 items-center'>
           <i className='bx bxs-contact text-2xl' ></i>
                <span>Contact</span>
              </div>
-          </a>
+          </NavLink>
 <aside className='flex flex-col gap-4 '>
 <div className=' w-fit'>
           <span className=' flex gap-1 items-center justify-center bg-yellow-500 py-2 text-gray-600 font-bold text-md rounded-lg px-6 hover:bg-pink-600 hover:text-white hover:cursor-pointer duration-300'>
@@ -122,7 +122,7 @@ function Header() {
             </span>
           </div>
           <div className='text-md lg:text-lg xl:text-xl flex mx-auto justify-center items-center text-gray-500 gap-1 border-t-2 border-gray-300'>
-            <span>All Right Reseverd</span>
+            <span>All Right Reseverd 2024</span>
             <span className='text-4xl mt-3'>&reg;</span>
             <span className='text-pink-700 hover:text-yellow-500 hover:cursor-pointer'>Crown Mash</span>
           </div>

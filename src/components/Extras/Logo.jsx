@@ -5,15 +5,15 @@ function Logo({
 }) {
   return (
     <div className={`flex items-center justify-center ${className}`}>
-      <div className="font-bold mr-2 text-pink-700">C</div>
-      <div className="font-bold mr-2 text-pink-700">r</div>
-      <div className="font-bold mr-2 text-pink-700">o</div>
-      <div className="font-bold mr-2 text-pink-700">w</div>
-      <div className="font-bold mr-2 text-pink-700">n</div>
-      <div className="font-bold mr-2 text-yellow-400">M</div>
-      <div className="font-bold mr-2 text-yellow-400">a</div>
-      <div className="font-bold mr-2 text-yellow-400">s</div>
-      <div className="font-bold mr-2 text-yellow-400">h</div>
+      <div className="font-bold mr-1 text-pink-600">C</div>
+      <div className="font-bold mr-1 text-pink-600">r</div>
+      <div className="font-bold mr-1 text-pink-600">o</div>
+      <div className="font-bold mr-1 text-pink-600">w</div>
+      <div className="font-bold mr-1 text-pink-600">n</div>
+      <div className="font-bold mr-1 text-yellow-500">M</div>
+      <div className="font-bold mr-1 text-yellow-500">a</div>
+      <div className="font-bold mr-1 text-yellow-500">s</div>
+      <div className="font-bold mr-1 text-yellow-500">h</div>
     </div>
   );
 }

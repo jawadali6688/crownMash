@@ -2,9 +2,9 @@ import React from "react";
 
 function About() {
   return (
-    <main className="w-[98%] px-4 mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg">
+    <main className="mx-auto my-6 flex flex-col justify-center items-center mx-atuo rounded-lg">
       <section className="">
-        <div className="px-4 py-2 flex flex-col gap-2 ">
+        <div className="px-2 py-2 flex flex-col gap-2 ">
           <div className="flex flex-col justify-center items-center mx-auto gap-2 w-fit">
             <h1 className="text-yellow-500 font-bold text-2xl border-b-2 border-b-yellow-500 text-center flex  justify-center items-center w-fit mx-auto">
               About Us
@@ -40,7 +40,7 @@ function About() {
           <img
             src="https://media.gettyimages.com/id/1446478827/photo/a-chef-is-cooking-in-his-restaurants-kitchen.jpg?s=612x612&w=0&k=20&c=jwKJmGErrLe2XsTWNYEEyiNicudYVA4j8jvnTiJdp58="
             alt=""
-            className="w-full h-[40vh] md:h-[50vh] lg:h-[55vh] object-cover rounded-3xl"
+            className="w-[99%] md:w-[90%] h-[300px] md:h-[350px] xl:h-[350px] mx-auto object-cover rounded-3xl"
           />
         </div>
           </section>
