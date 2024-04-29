@@ -4,11 +4,11 @@ import {Logo} from '../index'
 function Footer() {
   return (
 <>
-<main className='w-full py-4 px-5 flex flex-col md:flex-row  gap-4 justify-center items-start bg-white rounded-lg'>
-    <div className='w-[90%] md:w-2/6 flex flex-col gap-4 justify-center items-center'>
+<main className='w-full md:px-4 py-4 flex flex-col md:flex-row  gap-4 justify-center items-start bg-white rounded-lg'>
+    <div className='w-full flex flex-col gap-4 justify-center items-center'>
         <Logo/>
         <span className='text-center text-gray-700 text-sm'>
-        Crown Mash is more than just a fast food restaurant. 
+        Crown Mash is more than just a fast food restaurant—it's a culinary journey where every bite tells a story of flavor and tradition. 
         </span>
        <div className='flex gap-6'>
        <span className='text-pink-600 cursor-pointer hover:text-yellow-500 duration-300'>
@@ -26,7 +26,7 @@ function Footer() {
        </div>
     </div>
 
-    <div className='w-[90%] md:w-2/6 flex flex-col gap-4 justify-center items-center'>
+    <div className='w-full flex flex-col gap-4 justify-center mx-auto items-center'>
         <h3 className='text-yellow-500 font-bold text-2xl border-b-2 border-b-yellow-500 text-center flex  justify-center items-center w-fit mx-auto'>Quick Links</h3>
         <Link to= "" className='text-gray-600 hover:text-pink-600'>Home</Link>
         <Link to= "/about-us" className='text-gray-600 hover:text-pink-600'>About</Link>
