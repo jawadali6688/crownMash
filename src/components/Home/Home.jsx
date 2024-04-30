@@ -37,6 +37,7 @@ function Home() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false
   };
   return (
 <>
@@ -70,7 +71,7 @@ function Home() {
     </section>
 </main>
       {/* sliding image */}
-      <div className="w-[90%] mb-8 md:w-[80%] mx-auto  text-red-500">
+      <div className="w-[95%] mb-8 md:w-[80%] mx-auto  text-red-500">
 <Slider {...settings}>
         {foodImages.map((item, index) => {
           return (
