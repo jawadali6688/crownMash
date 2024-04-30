@@ -71,14 +71,14 @@ function Home() {
     </section>
 </main>
       {/* sliding image */}
-      <div className="w-[95%] mb-8 md:w-[80%] mx-auto  text-red-500">
+      <div className="w-[90%] mb-8 md:w-[80%] mx-auto  text-red-500">
 <Slider {...settings}>
         {foodImages.map((item, index) => {
           return (
             <>
               <div key={index} className="px-4">
                 <div>
-                  <img src={item.url} alt="" className="w-[95%] md:w-[90%] h-[300px] md:h-[350px] xl:h-[350px] mx-auto object-cover rounded-3xl" />
+                  <img src={item.url} alt="" className="w-[99%] md:w-[90%] h-[300px] md:h-[350px] xl:h-[350px] mx-auto object-cover rounded-3xl" />
                 </div>
               </div>
             </>
